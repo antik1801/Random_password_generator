@@ -2,8 +2,10 @@
 
 ## Netlify Deploy:
 
-```
+## Please visit the live site to check the app
 
+```
+https://rococo-cranachan-673e8f.netlify.app
 
 ```
 
