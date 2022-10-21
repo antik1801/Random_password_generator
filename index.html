@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random password generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h3>Random Password Generator</h3>
+            <hr class="hrline">
+        </div>
+        <div class="wrapper">
+            <div class="input__box">
+               <span><input type="text" value="nvbhflskfirrfmskksdi@!!" disabled></span> 
+               <span><button type="submit" class="copy">copy</button></span>
+            </div>
+            <div class="pass-indicator"></div>
+            <div class="password__length">
+            <div class="password__details">
+                <span>Password Length:</span>
+                <span class="length__size">15</span>
+            </div>
+            <input type="range" min="1" max="30" step="1">
+        </div>
+        <div class="password__settings">
+            <div class="setting__title">
+                <span>Password settings</span>
+            </div>
+            <div class="setting__checkbox">
+                <ul class="options">
+                    <li class="option">
+                        <input type="checkbox" id="lowercase" checked>
+                        <label for="lowercase">Lowercase(a-z)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="uppercase">
+                        <label for="uppercase">Uppercase(A-Z)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="numbers">
+                        <label for="numbers">Numbers(0-9)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="Symbles">
+                        <label for="symbles">Symbles(!-*&@..)</label>
+                    </li>
+                    <!-- <li class="option">
+                        <input type="checkbox" id="execute__duplicate">
+                        <label for="execute__duplicate">Execute duplicates</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="include__space">
+                        <label for="include__space">Include Space</label>
+                    </li> -->
+                </ul>
+            </div>
+            <button  class="generate__password">Genarate Password</button>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
